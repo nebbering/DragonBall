@@ -39,17 +39,40 @@ div#principal {
 }
 
 .info {
+    word-break: break-word;
     text-shadow: 5px;
-    font-size: 24px;
+    font-size: 14px;
     margin-top: 15px;
     width: 250px;
     text-align: center;
 }
 
+.info header {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
 .info p {
-    padding: 16px;
+    padding: 10px;
     text-align: justify;
     line-height: 20px;
     border-left: 5px;
     border-right: 5px;
+}
+
+#botaoAcao {
+    transition: transform .3s;
+    box-sizing: content-box;
+    color: aliceblue;
+    margin-top: 10px;
+    font-size: 13px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px rgb(255, 0, 0);
+    background-color: rgba(0, 0, 0, 0.767);
+}
+
+#botaoAcao:hover {
+    transform: scale(1.1);    
 }
