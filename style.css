@@ -27,6 +27,13 @@ div#principal {
     float: left;
 }
 
+.conteiner p {
+    padding: 16px;
+    text-align: justify;
+    line-height: 20px;
+
+}
+
 .cards img {
     transition: transform .3s;
     height: 240px;
@@ -50,8 +57,5 @@ div#principal {
     padding: 16px;
     text-align: justify;
     line-height: 20px;
-    border-left: 5px;
-    border-right: 5px;
-   overflow: -moz-hidden-unscrollable;
 
 }
