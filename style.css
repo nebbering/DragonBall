@@ -18,7 +18,7 @@ div#principal {
 
 .conteiner {
     background-color: rgb(211, 211, 211);
-    height: 550px;
+    height: 530px;
     width: 250px;
     margin-left: 10px;
     margin-right: 10px;
@@ -75,4 +75,14 @@ div#principal {
 
 #botaoAcao:hover {
     transform: scale(1.1);    
+}
+
+footer {
+    font-size: 16px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+footer a {
+    margin-top: 100px;
 }
